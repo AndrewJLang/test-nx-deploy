@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve --port $PORT",
+    "start": "nx serve --port $PORT -H 0.0.0.0",
     "dev": "nx serve",
     "build": "nx build",
     "test": "nx test"
